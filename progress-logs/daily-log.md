@@ -20,7 +20,6 @@
 ---
 
 ### 📅 Next Steps
-### 📅 Next Steps
 - [ ] Execute an Nmap **service version detection (`-sV`)** scan on port **46888/tcp** to identify the specific application running and its version.
 - [ ] Continue the **TryHackMe: Jr. Penetration Tester Path**.
 
