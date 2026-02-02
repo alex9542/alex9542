@@ -21,4 +21,3 @@
 
 ### 📅 Next Steps
 - [ ] Continue **TryHackMe: Jr. Penetration Tester Path**
-- [ ] Perform service version detection (`-sV`) on the unknown port (46888/tcp).
