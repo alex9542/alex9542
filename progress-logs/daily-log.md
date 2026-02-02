@@ -23,3 +23,16 @@
 - [ ] Execute an Nmap **service version detection (`-sV`)** scan on port **46888/tcp** to identify the specific application running and its version.
 - [ ] Continue the **TryHackMe: Jr. Penetration Tester Path**.
 
+---
+
+#### Entry 2: Service Version Investigation
+- **Focus:** Identifying the unknown service on port 46888.
+- **Action:** Ran a version scan (`-sV`) on the specific port to get more data.
+- **Command Used:** 
+  `sudo nmap -p 46888 -sV 192.168.1.174`
+
+**Scan Screenshot:**
+![Nmap Version Results](./your-screenshot-filename.png)
+
+**My Analysis:**
+> I ran an `-sV` scan to figure out that unknown port. The results showed "OAFP" and my phone's model, which turns out to be a built-in **Oppo discovery service** for things like Oppo Share. This helped me understand how to find more info on a service when Nmap doesn't label it automatically.
