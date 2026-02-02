@@ -12,7 +12,7 @@
 - **Action:** Executed a full TCP SYN scan on my phone's local IPv4 address.
 - **Command Used:** 
   `sudo nmap -p- -sS -T4 -Pn 192.168.1.174`
-- **Scan Screenshot:** ![Nmap Scan Results](./full nmap scan on phone ipv4.png)
+- **Scan Screenshot:** ![Nmap Scan Results](./full-nmap-scan-on-phone-ipv4.png)
 - **Analysis:** I ran a full TCP SYN scan on my phone’s IPv4 on my home Wi‑Fi. Most ports were closed or filtered, showing active blocking. Two TCP ports were open: **1716/tcp (xmsg/KDE Connect)**, and **46888/tcp**, which Nmap identified as an unknown service. This helped me understand how devices filter traffic and limit exposed services on a local network.
 
 **Step 2: Service Version Investigation**
